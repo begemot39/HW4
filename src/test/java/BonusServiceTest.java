@@ -52,7 +52,7 @@ public class BonusServiceTest {
     }
 
     @Test
-    void checkLargeBoundaryValueUnRegistered() { // Проверяем пограничное превышение максимального бонуса у незарегистрирвоаннного пользователя на 1 рубль.
+    void checkLargeBoundaryValueUnRegistered() { // Проверяем пограничное превышение максимального бонуса у неigt remote add origin зарегистрирвоаннного пользователя на 1 рубль.
         BonusService service = new BonusService();
 
         // подготавливаем данные:
